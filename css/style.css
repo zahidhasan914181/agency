@@ -1,0 +1,76 @@
+.header{
+    background-color: #FBD062;
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
+    padding-bottom: 140px;
+}
+.logo{
+    width: 150px;
+}
+.menu-item{
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+.menu-item a:hover{
+    border-bottom: 3px solid #7AB259;
+    padding-bottom: 0;
+}
+.header-content{
+    padding-top: 50px;
+}
+/*
+================================
+Responsive
+================================
+*/
+@media only screen and (max-width: 1024px) {
+    .header{
+        clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+    }
+    .header-content h1{
+        font-size: 47px;
+    }
+    .header-content p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding-bottom: 0px;
+    }
+    .header-content{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .header-content h1{
+        font-size: 27px;
+    }
+    .header-content p{
+        font-size: 13px;
+    }
+    .header-text{
+        text-align: center;
+    }
+    .header-img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
